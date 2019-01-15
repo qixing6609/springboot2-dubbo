@@ -20,6 +20,16 @@
     </site>
   </distributionManagement>
 
+  <modules>
+    <!-- 服务消费者工程 -->
+    <module>dubbo-consumer</module>
+    <!--  服务提供者工程-->
+    <module>dubbo-provider</module>
+    <!-- 主要放实体、接口、也可以放一些公用的工具类工程-->
+    <module>dubbo-core</module>
+  </modules>
+
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>

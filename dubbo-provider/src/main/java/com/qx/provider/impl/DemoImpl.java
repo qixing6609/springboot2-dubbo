@@ -9,6 +9,10 @@ import java.util.Map;
 @Service
 public class DemoImpl implements DemoApi {
 
+    /**
+     *
+     * @return
+     */
     @Override
     public Map<String, Object> demo() {
         Map<String, Object> demo = new HashMap<>();
