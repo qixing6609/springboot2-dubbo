@@ -1,7 +1,7 @@
 package com.qx.provider.impl;
 
 import com.qx.core.api.DemoApi;
-import org.springframework.stereotype.Service;
+import org.apache.dubbo.config.annotation.Service;
 
 import java.util.HashMap;
 import java.util.Map;
